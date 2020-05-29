@@ -1,0 +1,13 @@
+  <% @patients.each do |patient| %>
+
+    <h1>NAME: <%= patient.name %></h1><br />
+    <i>ADDRESS: <%= patient.address %></i><br />
+    <p>EMAIL: <%= patient.email %></p>
+    <p>PHONE: <%= patient.phone %></p>
+    <p>SYMPTOMS: <%= patient.symptoms %></p><br />
+    <p>TREATMENT: <%= patient.treatment %></p><br />
+    <p>TRAVEL: <%= patient.travel %></p><br />
+    <p>STATUS: <%= patient.status %></p><br />
+
+  <hr />
+<% end %>
