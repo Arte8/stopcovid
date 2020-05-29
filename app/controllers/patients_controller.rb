@@ -5,6 +5,7 @@ class PatientsController < ApplicationController
   end
 
   def new
+    @patient = Patient.new
   end
 
 
