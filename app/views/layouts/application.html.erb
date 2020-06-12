@@ -11,7 +11,12 @@
 
   <body>
     <%= image_tag 'map.png', class: 'worldmap' %>
-
+    <div class="topnav">
+      <a class="active" href="#home">CoviTrac</a>
+      <a href="#news">News</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </div>
     <%= yield %>
   </body>
 </html>

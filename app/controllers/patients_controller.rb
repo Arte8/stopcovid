@@ -8,15 +8,15 @@ class PatientsController < ApplicationController
   end
 
   def create
-    # Patient.create(patient_params)
-    # redirect_to index.html.erb
-    @patient = current_user.patients.create(patient_params)
-    if @patient.valid?
-      redirect_to root_path
-    else
-      render :new, status: :unprocessable_entity
-    end
-  end
+    Patient.create(patient_params)
+    redirect_to root_path
+  #   @patient = current_user.patients.create(patient_params)
+  #   if @patient.valid?
+  #     redirect_to root_path
+  #   else
+  #     render :new, status: :unprocessable_entity
+     end
+  # end
 
   private
 
