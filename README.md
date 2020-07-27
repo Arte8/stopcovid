@@ -1,6 +1,6 @@
 # STOPCOVID
 
-A COVID patient data and tracking app
+A COVID19 patient data and tracking app
 * a directory for professionals to log patient info.
 * ability to geo-track patients.
 * listing contact info and basic patient information.
